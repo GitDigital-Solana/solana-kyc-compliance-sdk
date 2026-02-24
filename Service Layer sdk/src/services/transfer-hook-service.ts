@@ -1,7 +1,6 @@
 import {
   Connection,
   PublicKey,
-  TransactionSignature,
   sendAndConfirmTransaction,
   Keypair
 } from '@solana/web3.js';
