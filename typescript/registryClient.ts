@@ -4,7 +4,6 @@ import {
   PublicKey,
   TransactionInstruction,
   Keypair,
-  SystemProgram,
 } from "@solana/web3.js";
 import * as anchor from "@project-serum/anchor";
  
