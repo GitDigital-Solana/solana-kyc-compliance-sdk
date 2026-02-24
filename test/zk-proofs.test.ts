@@ -7,7 +7,6 @@
 
 import { describe, test, expect, beforeAll } from '@jest/globals';
 import { ZKKYCVerifier, ZKProof, ZKPublicSignals } from '../src/zk-kyc';
-import { groth16 } from 'snarkjs'; // Assuming use of snarkjs/groth16
 // import { buildPoseidon } from 'circomlibjs'; // If using Poseidon hashing
 
 let zkVerifier: ZKKYCVerifier;
