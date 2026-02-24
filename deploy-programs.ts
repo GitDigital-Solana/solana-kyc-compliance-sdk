@@ -9,8 +9,6 @@ import {
   Connection, 
   Keypair, 
   PublicKey, 
-  Transaction,
-  sendAndConfirmTransaction,
 } from '@solana/web3.js';
 import { AnchorProvider, Wallet } from '@coral-xyz/anchor';
 import * as fs from 'fs';
