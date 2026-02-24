@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useConnection, useWallet } from '@solana/wallet-adapter-react';
 import { AnchorProvider, Program } from '@coral-xyz/anchor';
-import { IdentityManager, ComplianceFlags } from '@gitdigital/compliance-sdk';
+import { IdentityManager } from '@gitdigital/compliance-sdk';
 
 export function useComplianceManager() {
   const { connection } = useConnection();
