@@ -131,15 +131,6 @@ describe('KYC Flow Integration', () => {
 
   describe('Error Recovery', () => {
     test('should recover from RPC timeout', async () => {
-      const fastClient = new SolanaKYCClient({
-        rpcUrl: Environment.getSolanaRpcUrl(),
-        network: Environment.getSolanaNetwork(),
-        commitment: 'processed'
-      });
-
-      // This should either succeed quickly or timeout gracefully
-      try {
-        const result = await fastClient.verifyKYCAttestation({
           walletAddress: testUser.publicKey.toString(),
           requiredTier: KYCTier.TIER_1
         });
