@@ -28,11 +28,6 @@ export async function buildIssueAttestationIx(
     programId
   );
 
-  // build instruction data using Anchor IDL or manual serialization
-  const ixData = new anchor.BorshInstructionCoder({
-    // for quick prototyping use anchor's program client / IDL
-  } as any);
-
   // For brevity: example using anchor Program (you should instantiate Program with IDL)
   throw new Error("Use Anchor program client to build this instruction. Example template below.");
 
