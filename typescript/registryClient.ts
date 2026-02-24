@@ -22,7 +22,7 @@ export async function buildIssueAttestationIx(
   provider: anchor.AnchorProvider,
   params: IssueParams
 ): Promise<TransactionInstruction> {
-  const { issuer, wallet, expiresAt, jurisdiction, dataHash, programId } = params;
+  const { wallet, programId } = params;
   const [attestationPda, bump] = await PublicKey.findProgramAddress(
     [Buffer.from("attestation"), wallet.toBuffer()],
     programId
