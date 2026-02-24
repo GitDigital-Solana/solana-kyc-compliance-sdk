@@ -1,5 +1,5 @@
 import { Connection, Keypair, PublicKey } from "@solana/web3.js";
-import { TOKEN_2022_PROGRAM_ID, Token } from "@solana/spl-token";
+
  
 /**
  * Deploy a new SPL Token-2022 mint with metadata to set Transfer Hook and Permanent Delegate.
