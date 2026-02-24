@@ -1,5 +1,5 @@
 import { SolanaKYCClient } from '../../src/client';
-import { Connection, Keypair } from '@solana/web3.js';
+import { Keypair } from '@solana/web3.js';
 import { Environment } from '../../src/utils/env';
 
 describe('SolanaKYCClient', () => {
