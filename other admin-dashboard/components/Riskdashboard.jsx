@@ -38,6 +38,9 @@ const RiskDashboard = () => {
 
   const fetchDashboardStats = async () => {
     try {
+      const response = await fetch('/api/risk/dashboard-stats');
+      if (!response.ok) {
+        throw new Error(`Failed to fetch dashboard stats: ${response.status} ${response.statusText}`);
       }
       const data = await response.json();
       setDashboardStats(data);
@@ -48,6 +51,9 @@ const RiskDashboard = () => {
 
   const fetchRecentAlerts = async () => {
     try {
+      const response = await fetch('/api/risk/recent-alerts');
+      if (!response.ok) {
+        throw new Error(`Failed to fetch recent alerts: ${response.status} ${response.statusText}`);
       }
       const data = await response.json();
       setRecentAlerts(data);
@@ -55,9 +61,6 @@ const RiskDashboard = () => {
       console.error('Failed to fetch recent alerts:', error);
     }
   };
-      if (!response.ok) {
-        throw new Error(`Failed to fetch wallet risk: ${response.status} ${response.statusText}`);
-      }
 
   const searchWallet = async () => {
     if (!walletSearch.trim()) return;
