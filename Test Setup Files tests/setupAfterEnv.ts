@@ -1,5 +1,3 @@
-import { Connection } from '@solana/web3.js';
-
 beforeAll(async () => {
   // Verify test connection
   try {
