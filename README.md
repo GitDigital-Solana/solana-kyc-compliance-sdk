@@ -47,7 +47,7 @@ The SDK is composed of three primary layers:
 ```bash
 # Clone the repository
 git clone [https://github.com/gitdigital-products/solana-kyc-compliance-sdk.git](https://github.com/gitdigital-products/solana-kyc-compliance-sdk.git)
-
+```
 # Install dependencies
 cd solana-kyc-compliance-sdk
 yarn install
@@ -121,7 +121,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 | **AI Enforcement** | ![Beta](https://img.shields.io/badge/Status-Beta-orange) | SendAI / Range Risk API |
 | **Audit Logs** | ![Verified](https://img.shields.io/badge/Status-Verified-green) | Permanent Delegate / Events |
 
-```markdown
+``markdown
 <!-- Security Badges -->
 ![Security Foundational](https://img.shields.io/badge/security-foundational-blue)
 
@@ -192,7 +192,7 @@ jobs:
         with:
           name: badge-status
           path: badge-status.json
-
+```
 
 
 markdown
