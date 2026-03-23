@@ -1,0 +1,30 @@
+SUPPORTERAPISCHEMA.json
+A clean, future‑proof schema for programmatic sponsor ingestion.
+
+`json
+{
+  "type": "object",
+  "title": "Supporter",
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "tier": {
+      "type": "string",
+      "enum": [
+        "community",
+        "developer",
+        "infrastructure",
+        "ecosystem",
+        "institutional"
+      ]
+    },
+    "joined_at": { "type": "string", "format": "date-time" },
+    "link": { "type": "string", "format": "uri" },
+    "avatar_url": { "type": "string", "format": "uri" },
+    "message": { "type": "string" }
+  },
+  "required": ["id", "name", "tier", "joined_at"]
+}
+`
+
+This schema is intentionally minimal, extensible, and GitDigital‑aligned.
