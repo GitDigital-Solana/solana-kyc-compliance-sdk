@@ -1,0 +1,7 @@
+Developer_Supporter.svg
+`svg
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="32">
+  <rect width="180" height="32" fill="#2D6CDF"/>
+  <text x="90" y="21" font-size="14" text-anchor="middle" fill="white">Developer Supporter</text>
+</svg>
+`
