@@ -1,0 +1,23 @@
+Auto‑Update Supporter_Wall.yml
+This action pulls sponsor data and updates your wall automatically.
+
+`yaml
+name: Update Supporter Wall
+
+on:
+  schedule:
+    - cron: "0 0   1"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch GitHub Sponsors
+        uses: JamesIves/github-sponsors-readme-action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          file: "SUPPORTER_WALL.md"
+`
