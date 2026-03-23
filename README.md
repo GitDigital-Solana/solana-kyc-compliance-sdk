@@ -1,3 +1,21 @@
+<a href='https://ko-fi.com/T6T61WAZYZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+
+```mermaid
+    graph TD;
+    A[User] -->|Submits KYC Info| B(SDK);
+    B -->|Sends Data| C[API];
+    C -->|Validates| D[Database];
+    D -->|Returns Result| C;
+    C -->|Generates Report| E[Report Service];
+    E -->|Delivers Report| A;
+```
+
+https://buy.polar.sh/polar_cl_RF40qWYgiCob4z80EjoLU39XP2mxzRvTA6jAe0XIJo8
+```js
+<a href="https://buy.polar.sh/polar_cl_RF40qWYgiCob4z80EjoLU39XP2mxzRvTA6jAe0XIJo8" data-polar-checkout data-polar-checkout-theme="dark">Purchase</a>
+<script src="https://cdn.jsdelivr.net/npm/@polar-sh/checkout@0.1/dist/embed.global.js" defer data-auto-init></script>
+```
 This is a comprehensive update for your README.md, designed to align with high-quality Solana ecosystem standards. It includes a "Badge Wall," clear architectural overviews, and technical implementation details based on your repository's focus on Token Extensions (Transfer Hooks & Permanent Delegates).
 Updated README.md
 
