@@ -1,0 +1,12 @@
+SUPPORTER_WALL.json
+Machine‑readable, perfect for automation.
+
+`json
+{
+  "community_supporters": [],
+  "developer_supporters": [],
+  "infrastructure_supporters": [],
+  "ecosystem_sponsors": [],
+  "institutional_sponsors": []
+}
+`
