@@ -1,0 +1,60 @@
+.github/workflows/sponsor.yml
+
+```yaml
+name: Sponsor Management
+
+on:
+  sponsorship:
+    types: [created, cancelled, tier_changed]
+  # Optional: schedule a daily sync to update SPONSORS.md from registry
+  # schedule:
+  #   - cron: '0 0 * * *'
+
+jobs:
+  manage-sponsor:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Process sponsorship event
+        id: process
+        run: |
+          node .github/scripts/process-sponsorship.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SPONSORSHIP_ACTION: ${{ github.event.action }}
+          SPONSOR_LOGIN: ${{ github.event.sponsorship.sponsor.login }}
+          SPONSOR_TIER: ${{ github.event.sponsorship.tier.name }}
+          SPONSOR_TIER_ID: ${{ github.event.sponsorship.tier.node_id }}
+          SPONSOR_CREATED_AT: ${{ github.event.sponsorship.created_at }}
+
+      - name: Create welcome issue for new sponsors
+        if: github.event.action == 'created'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const sponsorLogin = process.env.SPONSOR_LOGIN;
+            const tier = process.env.SPONSOR_TIER;
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Welcome, ${sponsorLogin}! Thank you for sponsoring at the ${tier} tier.`,
+              body: `Thank you for supporting GitDigital-Solana! 🎉\n\nYour sponsorship helps build modular, governance-aligned infrastructure for Solana.\n\n- Check your badge in the registry: \`/registry/sponsors.json\`\n- Review your benefits: \`/governance/sponsor-benefits.md\`\n- Join our Discord for exclusive updates.\n\n— The GitDigital Team`,
+              labels: ['sponsor', 'welcome']
+            });
+
+      - name: Commit updated registry and SPONSORS.md
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update sponsor registry and wall"
+          file_pattern: "registry/sponsors.json SPONSORS.md"
+```
