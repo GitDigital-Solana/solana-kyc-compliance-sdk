@@ -1,0 +1,9 @@
+metrics/contributors.json
+
+```json
+[
+  {"login": "alice", "commits": 120, "prs_merged": 15},
+  {"login": "bob", "commits": 45, "prs_merged": 8},
+  {"login": "charlie", "commits": 10, "prs_merged": 1}
+]
+```
