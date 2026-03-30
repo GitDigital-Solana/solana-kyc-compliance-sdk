@@ -1,0 +1,64 @@
+badge-authority/sponsor-badges.json
+
+```json
+{
+  "badges": [
+    {
+      "type": "supporter",
+      "tier": "Supporter",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/supporter.json"
+    },
+    {
+      "type": "contributor",
+      "tier": "Contributor",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/contributor.json"
+    },
+    {
+      "type": "guardian",
+      "tier": "Guardian",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/guardian.json"
+    },
+    {
+      "type": "architect",
+      "tier": "Architect",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/architect.json"
+    },
+    {
+      "type": "foundation",
+      "tier": "Foundation Partner",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/foundation.json"
+    },
+    {
+      "type": "benefactor",
+      "tier": "Benefactor",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/benefactor.json"
+    },
+    {
+      "type": "patron",
+      "tier": "Patron",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/patron.json"
+    },
+    {
+      "type": "visionary",
+      "tier": "Visionary",
+      "granted_at": "2026-03-30T00:00:00Z",
+      "expires_at": null,
+      "metadata_uri": "https://gitdigital.io/badges/visionary.json"
+    }
+  ]
+}
+```
