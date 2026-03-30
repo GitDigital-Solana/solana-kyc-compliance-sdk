@@ -1,0 +1,16 @@
+registry/sponsors.json
+
+```json
+{
+  "sponsors": [
+    {
+      "id": "example_tier_id_1",
+      "username": "example_supporter",
+      "tier": "Supporter",
+      "date_started": "2026-03-30T00:00:00Z",
+      "badges": ["supporter"],
+      "notes": "Initial supporter"
+    }
+  ]
+}
+```
