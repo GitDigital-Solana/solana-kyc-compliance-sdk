@@ -1,0 +1,12 @@
+funding/backers.json
+
+```json
+{
+  "total_raised_usd": 12345,
+  "total_sponsors": 45,
+  "sponsor_list": [
+    {"login": "big-corp", "tier": "whale"},
+    {"login": "dev-fan", "tier": "sustainer"}
+  ]
+}
+```
