@@ -1,0 +1,19 @@
+FILE: .github/FUNDING.yml
+
+```yaml
+# Funding configuration for GitDigital-Solana
+# This file enables the GitHub Sponsors button on the repository.
+
+github: [rickcreator87]
+# patreon: # Uncomment and add username to link a Patreon account
+# open_collective: # Uncomment and add username to link an Open Collective
+# ko_fi: # Uncomment and add username to link a Ko-fi account
+# tidelift: # Uncomment and add platform/link for Tidelift
+# community_bridge: # Uncomment and add project name for Community Bridge
+# liberapay: # Uncomment and add username for Liberapay
+# issuehunt: # Uncomment and add username for IssueHunt
+# otechie: # Uncomment and add username for Otechie
+# lfx_crowdfunding: # Uncomment and add project name for LFX Crowdfunding
+# custom: ['https://gitdigital.io/sponsor', 'https://solana.org/donate']
+custom: ['https://gitdigital.io/sponsor'] # Optional custom links
+```
