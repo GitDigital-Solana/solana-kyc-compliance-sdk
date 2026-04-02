@@ -1,0 +1,13 @@
+{
+  "cert_id": "{{CERT_ID}}",
+  "org": "{{Gitdigital_Products}}",
+  "repo": "{{Solana-kyc-compliance-sdk}}",
+  "stage": "{{Product_Ready_Complete}}",
+  "badge_tier": "{{BADGE_TIER}}",
+  "badge_code": "{{BADGE_CODE}}",
+  "primary_branch": "{{PRIMARY_BRANCH}}",
+  "commit_hash": "{{COMMIT_HASH}}",
+  "merkle_root": "{{MERKLE_ROOT}}",
+  "issued_on": "{{ISO_DATE}}",
+  "issuer_id": "GDBA-{{ISSUER_ID}}"
+}
