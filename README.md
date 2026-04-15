@@ -1,4 +1,15 @@
 <a href='https://ko-fi.com/T6T61WAZYZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+> **GitDigital Product — Solana KYC Compliance SDK**  
+> Certified **Architecture Locked** and **Product Ready**.
+
+![Architecture Badge](./badges/ARCH_LOCK-G1.svg)  
+![Product Badge](./badges/ARCH_PROD-G1.svg)
+
+---
+
+## Product Overview
+
+The **Solana KYC Compliance SDK** provides a governance‑aligned, production‑ready toolkit for integrating KYC and compliance flows into Solana‑based applications.
 
 
 ```mermaid
@@ -10,6 +21,21 @@
     C -->|Generates Report| E[Report Service];
     E -->|Delivers Report| A;
 ```
+```svg
+/badges/ARCH_LOCK-G1.svg
+/badges/ARCH_PROD-G1.svg
+```
+> **GitDigital Product — Solana KYC Compliance SDK**  
+> Certified **Architecture Locked** and **Product Ready**.
+```svg
+![Architecture Badge](./badges/ARCH_LOCK-G1.svg)  
+![Product Badge](./badges/ARCH_PROD-G1.svg)
+```
+---
+
+## Product Overview
+
+The **Solana KYC Compliance SDK** provides a governance‑aligned, production‑ready toolkit for integrating KYC and compliance flows into Solana‑based applications.
 
 https://buy.polar.sh/polar_cl_RF40qWYgiCob4z80EjoLU39XP2mxzRvTA6jAe0XIJo8
 ```js
