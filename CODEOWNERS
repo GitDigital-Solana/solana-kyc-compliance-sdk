@@ -1,0 +1,42 @@
+```
+
+/* Author: RickCreator87 | Copyright: GitDigital Solana  2026 */
+/CODEOWNERS
+
+```
+```
+
+GitDigital Solana KYC SDK Code Owners
+
+Each line specifies a glob pattern and the owners of matching files
+
+Core program ownership
+
+/programs/solana-kyc-sdk/                     @GitDigital-Solana @rickcreator87
+/programs/solana-kyc-sdk/src/lib.rs           @GitDigital-Solana @rickcreator87
+/programs/solana-kyc-sdk/src/state.rs         @GitDigital-Solana @security-team
+/programs/solana-kyc-sdk/src/errors.rs        @GitDigital-Solana
+
+TypeScript SDK ownership
+
+/sdk/                                         @GitDigital-Solana @typescript-team
+/sdk/index.ts                                 @GitDigital-Solana @api-team
+/sdk/transfer-hook-helper.ts                  @GitDigital-Solana @protocol-team
+
+Documentation ownership
+
+/docs/                                        @GitDigital-Solana @legal-team
+/docs/SECURITY.md                             @GitDigital-Solana @security-team
+/docs/COMPLIANCE.md                           @GitDigital-Solana @legal-team
+
+Scripts and configuration
+
+/scripts/                                     @GitDigital-Solana @devops-team
+/Cargo.toml                                   @GitDigital-Solana @build-team
+
+Root files
+
+/README.md                                    @GitDigital-Solana @product-team
+/CODEOWNERS                                   @GitDigital-Solana @infrastructure-team
+
+```
