@@ -724,5 +724,5 @@ We focus on trust, resilience, and long-term viability — not hype cycles.
 
 **Ship code. Earn trust. Scale responsibly.**
 
-Looking for the high-speed institutional implementation? Visit the https://github.com/GitDigital-Solana/solana-kyc-compliance-sdk"
+Looking for the underlying governance theory? Visit the EGTS Protocol Org."https://github.com/GitDigital-Ethereum/Ethereum-Governance-Trust-Surface-EGTS-
 
