@@ -1,9 +1,10 @@
 For a live demonstration of compliance at the token level, see [GitDigital Solana Platform](https://gitdigi-sol-ux7fw2nh.manus.space/).
+```iframe
 <iframe src="https://gitdigi-sol-ux7fw2nh.manus.space/" 
         width="100%" height="600" style="border:0;" 
         title="GitDigital Solana Compliance Demo">
 </iframe>
-
+```
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-GitDigital_Solana_Platform-blue?style=for-the-badge)](https://gitdigi-sol-ux7fw2nh.manus.space/)
 
 Check out the live compliance engine:
