@@ -1,3 +1,13 @@
+For a live demonstration of compliance at the token level, see [GitDigital Solana Platform](https://gitdigi-sol-ux7fw2nh.manus.space/).
+<iframe src="https://gitdigi-sol-ux7fw2nh.manus.space/" 
+        width="100%" height="600" style="border:0;" 
+        title="GitDigital Solana Compliance Demo">
+</iframe>
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-GitDigital_Solana_Platform-blue?style=for-the-badge)](https://gitdigi-sol-ux7fw2nh.manus.space/)
+
+Check out the live compliance engine:
+https://gitdigi-sol-ux7fw2nh.manus.space/
+
 <a href='https://ko-fi.com/T6T61WAZYZ' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi5.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 > **GitDigital Product — Solana KYC Compliance SDK**  
 > Certified **Architecture Locked** and **Product Ready**.
