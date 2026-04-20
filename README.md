@@ -33,12 +33,14 @@ The **Solana KYC Compliance SDK** provides a governance‑aligned, production‑
     C -->|Generates Report| E[Report Service];
     E -->|Delivers Report| A;
 ```
+
 ```svg
 /badges/ARCH_LOCK-G1.svg
 /badges/ARCH_PROD-G1.svg
 ```
 > **GitDigital Product — Solana KYC Compliance SDK**  
 > Certified **Architecture Locked** and **Product Ready**.
+
 ```svg
 ![Architecture Badge](./badges/ARCH_LOCK-G1.svg)  
 ![Product Badge](./badges/ARCH_PROD-G1.svg)
@@ -50,7 +52,8 @@ The **Solana KYC Compliance SDK** provides a governance‑aligned, production‑
 The **Solana KYC Compliance SDK** provides a governance‑aligned, production‑ready toolkit for integrating KYC and compliance flows into Solana‑based applications.
 
 https://buy.polar.sh/polar_cl_RF40qWYgiCob4z80EjoLU39XP2mxzRvTA6jAe0XIJo8
-```js
+
+```javascript
 <a href="https://buy.polar.sh/polar_cl_RF40qWYgiCob4z80EjoLU39XP2mxzRvTA6jAe0XIJo8" data-polar-checkout data-polar-checkout-theme="dark">Purchase</a>
 <script src="https://cdn.jsdelivr.net/npm/@polar-sh/checkout@0.1/dist/embed.global.js" defer data-auto-init></script>
 ```
@@ -102,7 +105,7 @@ The SDK is composed of three primary layers:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/gitdigital-products/solana-kyc-compliance-sdk.git](https://github.com/gitdigital-products/solana-kyc-compliance-sdk.git)
+git clone [https://github.com/gitdigital-solana/solana-kyc-compliance-sdk.git](https://github.com/gitdigital-solana/solana-kyc-compliance-sdk.git)
 ```
 # Install dependencies
 cd solana-kyc-compliance-sdk
@@ -138,7 +141,7 @@ Contributions are welcome! Please see our Contributing Guide for details on our 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 <div align="center">
-<sub>Built with ❤️ by <b>GitDigital Products</b></sub>
+<sub>Built with ❤️ by <b>GitDigital Solana</b></sub>
 </div>
 
 ### Key Enhancements Made:
