@@ -1,3 +1,19 @@
+
+* @RickCreator87
+/docs/ @RickCreator87
+/src/ @RickCreator87
+
+https://cdn.buymeacoffee.com/stream-alerts/bmc-stream-alert-gif.webp
+                                                https://studio.buymeacoffee.com/stream-alert/page/Rickcreator1987?user_key=93ebad4c-f9cd-4d46-96a6-302ce2a29e03                                            
+                    buymeacoffee.com/rickcreator1987                
+<a href="https://www.buymeacoffee.com/Rickcreator1987" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+.github/workflows/test.yml
+.github/workflows/lint.yml
+<p align="center">
+  <img src="./banner/gitdigital-cryptographic-banner.svg" width="600" />
+</p>
+
+
 For a live demonstration of compliance at the token level, see [GitDigital Solana Platform](https://gitdigi-sol-ux7fw2nh.manus.space/).
 
 <iframe src="https://gitdigi-sol-ux7fw2nh.manus.space/" 
