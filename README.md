@@ -816,7 +816,6 @@ Support:
 /README.md
 
 ```
-
 # GitDigital Solana KYC SDK
 
 **Production-ready compliance SDK for institutional RWA issuance on Solana**
