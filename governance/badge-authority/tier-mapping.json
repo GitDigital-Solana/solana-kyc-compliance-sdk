@@ -1,0 +1,66 @@
+badge-authority/tier-mapping.json
+
+```json
+{
+  "tier_mapping": {
+    "Supporter": {
+      "monthly_price": 10,
+      "badge_type": "supporter",
+      "governance_votes": 0,
+      "pr_priority_hours": null,
+      "consultation_hours": 0
+    },
+    "Contributor": {
+      "monthly_price": 50,
+      "badge_type": "contributor",
+      "governance_votes": 0,
+      "pr_priority_hours": 24,
+      "consultation_hours": 0
+    },
+    "Guardian": {
+      "monthly_price": 250,
+      "badge_type": "guardian",
+      "governance_votes": 1,
+      "pr_priority_hours": 24,
+      "consultation_hours": 0
+    },
+    "Architect": {
+      "monthly_price": 1000,
+      "badge_type": "architect",
+      "governance_votes": 1,
+      "pr_priority_hours": 12,
+      "consultation_hours": 2
+    },
+    "Foundation Partner": {
+      "monthly_price": 5000,
+      "badge_type": "foundation",
+      "governance_votes": 3,
+      "pr_priority_hours": 4,
+      "consultation_hours": 5,
+      "veto_power": true
+    },
+    "Benefactor": {
+      "one_time_price": 500,
+      "badge_type": "benefactor",
+      "governance_votes": 0,
+      "pr_priority_hours": null,
+      "consultation_hours": 0
+    },
+    "Patron": {
+      "one_time_price": 2500,
+      "badge_type": "patron",
+      "governance_votes": 0,
+      "pr_priority_hours": null,
+      "consultation_hours": 0
+    },
+    "Visionary": {
+      "one_time_price": 10000,
+      "badge_type": "visionary",
+      "governance_votes": 0,
+      "pr_priority_hours": null,
+      "consultation_hours": 0,
+      "lifetime_recognition": true
+    }
+  }
+}
+```
