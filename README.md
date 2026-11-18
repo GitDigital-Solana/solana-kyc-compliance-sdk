@@ -1,8 +1,10 @@
 [![GitDigital Authorized](https://img.shields.io/badge/GitDigital-Authorized-9945FF?style=for-the-badge&logo=github)](https://github.com/Gitdigital-products)
+
 [![KYC/AML](https://img.shields.io/badge/Compliance-KYC%2FAML-red?style=for-the-badge)](https://github.com/Gitdigital-products/Identity-Verification-KYC-AML
 * @RickCreator1987
 /docs/ @RickCreator1987
 /src/ @RickCreator1987
+
 [![Tax Status](https://img.shields.io/badge/Governance-Tax--First-blue?style=for-the-badge)](https://github.com/Gitdigital-products/BADGE-AUTHORITY)
 
 
