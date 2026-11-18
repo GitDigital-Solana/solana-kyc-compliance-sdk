@@ -3,6 +3,8 @@
 * @RickCreator1987
 /docs/ @RickCreator1987
 /src/ @RickCreator1987
+[![Tax Status](https://img.shields.io/badge/Governance-Tax--First-blue?style=for-the-badge)](https://github.com/Gitdigital-products/BADGE-AUTHORITY)
+
 
 https://cdn.buymeacoffee.com/stream-alerts/bmc-stream-alert-gif.webp
                                                 https://studio.buymeacoffee.com/stream-alert/page/Rickcreator1987?user_key=93ebad4c-f9cd-4d46-96a6-302ce2a29e03                                            
