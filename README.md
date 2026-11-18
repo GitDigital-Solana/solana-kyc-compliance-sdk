@@ -1,7 +1,8 @@
-
-* @RickCreator87
-/docs/ @RickCreator87
-/src/ @RickCreator87
+[![GitDigital Authorized](https://img.shields.io/badge/GitDigital-Authorized-9945FF?style=for-the-badge&logo=github)](https://github.com/Gitdigital-products)
+[![KYC/AML](https://img.shields.io/badge/Compliance-KYC%2FAML-red?style=for-the-badge)](https://github.com/Gitdigital-products/Identity-Verification-KYC-AML
+* @RickCreator1987
+/docs/ @RickCreator1987
+/src/ @RickCreator1987
 
 https://cdn.buymeacoffee.com/stream-alerts/bmc-stream-alert-gif.webp
                                                 https://studio.buymeacoffee.com/stream-alert/page/Rickcreator1987?user_key=93ebad4c-f9cd-4d46-96a6-302ce2a29e03                                            
